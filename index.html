@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="icon" href="img/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lista.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Minha Lista de Tarefas</h1>
+        </header>
+        <div class="content">
+            <div class="input-group">
+                <input type="text" id="taskInput" class="form-control" placeholder="Adicionar nova tarefa">
+                <div class="input-group-append">
+                    <button id="addTaskBtn" class="btn btn-primary"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <footer>
+        <h4>© Anderson Costa</h4>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="lista.js"></script>
+</body>
+</html>
